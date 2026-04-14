@@ -28,12 +28,16 @@
       </div>
 
       <div class="tool-group">
-        <label>Add Text Elements:</label>
+        <label>Add/Edit Text:</label>
         <input type="text" id="textInput" placeholder="Type text...">
-        <button id="addTextBtn">Add Text to Canvas</button>
+        <button id="addTextBtn">Add Text</button>
+        <button id="deleteTextBtn" style="background: #802020; border-color: #a03030;">Delete Selected Text</button>
       </div>
 
-      <button id="exportBtn" class="primary-btn">Export Sticker</button>
+      <div class="tool-group" style="margin-top: auto;">
+        <input type="text" id="fileName" placeholder="Sticker Name (e.g., Happy_Dog)">
+        <button id="exportBtn" class="primary-btn">Export WebP Sticker</button>
+      </div>
     </div>
 
     <div class="main-area">
