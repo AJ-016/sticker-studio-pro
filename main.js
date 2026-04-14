@@ -8,7 +8,7 @@ app.whenReady().then(() => {
   pyServer = spawn('python', ['api/app.py']);
   
   mainWindow = new BrowserWindow({
-    width: 900, height: 750,
+    width: 1000, height: 750,
     webPreferences: { preload: path.join(__dirname, 'preload.js') },
     autoHideMenuBar: true
   });
