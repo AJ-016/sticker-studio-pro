@@ -7,7 +7,7 @@ let mainWindow, pyServer;
 const menuTemplate = [
   {
     label: 'File',
-    submenu: [{ role: 'quit', label: 'Exit Sticker Maker' }]
+    submenu: [{ role: 'quit', label: 'Exit Sticker Studio Pro' }]
   },
   {
     label: 'View',
@@ -17,7 +17,7 @@ const menuTemplate = [
     label: 'Help',
     submenu: [{ 
       label: 'About', 
-      click: () => dialog.showMessageBox({ title: 'About', message: 'Local AI Sticker Maker v1.0.0\nFully offline, privacy-first.' })
+      click: () => dialog.showMessageBox({ title: 'About', message: 'Sticker Studio Pro v2.0.0\nFully offline, privacy-first.' })
     }]
   }
 ];
@@ -28,7 +28,7 @@ app.whenReady().then(() => {
   pyServer = spawn('python', ['api/app.py']);
   
   mainWindow = new BrowserWindow({
-    width: 1000, height: 750,
+    width: 1100, height: 800,
     webPreferences: { preload: path.join(__dirname, 'preload.js') }
   });
   mainWindow.loadFile('ui/index.html');

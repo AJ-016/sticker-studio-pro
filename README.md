@@ -1,11 +1,12 @@
-# Local AI Sticker Maker
-A lightweight, offline desktop application for creating transparent stickers with custom text and outlines. 
+# Sticker Studio Pro
+A lightweight, offline desktop application for creating transparent stickers with custom text and outlines. Featuring a professional workspace layout.
 
 ## Features
-- **Offline Processing:** Powered by `u2netp` AI for fast background removal.
-- **Customization:** Add feathered or solid outlines to your subject.
-- **Text Engine:** Overlay multiple draggable text elements.
-- **Export:** Saves as 512x512 WebP, ready for messaging apps.
+- **Offline AI Processing:** Powered by `u2netp` AI for fast background removal.
+- **Pro Workspace:** Vertical toolbar, floating property panels, and a sleek dark theme.
+- **Advanced Canvas:** Center-based zoom (up to 5000%), pan tool, undo/redo history, and alignment controls.
+- **Customization:** Add feathered or solid outlines, custom typography, and adjustable backgrounds.
+- **Export:** Saves as 512x512 WebP (WhatsApp standard) or High-Res PNG.
 
 ## Setup
 1. `npm install`
