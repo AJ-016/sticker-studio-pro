@@ -1,0 +1,19 @@
+# Node
+node_modules/
+
+# Python
+api/venv/
+api/__pycache__/
+.u2net/
+
+# Electron Builds (Just in case for the future!)
+dist/
+out/
+build/
+*.exe
+*.dmg
+*.AppImage
+
+# OS Files
+.DS_Store
+Thumbs.db
