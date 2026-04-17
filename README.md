@@ -1,4 +1,4 @@
-# Sticker Studio Pro
+# Sticker Studio Pro🔥
 A lightweight, offline desktop application for creating transparent stickers with custom text and outlines. Featuring a professional workspace layout.
 
 ## Features
